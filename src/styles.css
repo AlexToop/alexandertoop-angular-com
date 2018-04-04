@@ -1,0 +1,87 @@
+/* This is the stylesheet used on my website 'alexandertoop.com' */
+
+body {
+	/* Font can be aquired from Google Fonts */
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	/* Light grey background */
+	background-color:#f6f6f6 ;
+}
+
+#wrapper {
+	/* Effectively gives me a box in the middle of the page to work on */
+	width:768px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Makes it so that links have a uniform look that does not change when 
+the links are followed */
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: blue;
+}
+a:hover {
+	color: red;
+}
+
+@media only screen and (max-width: 768px) {
+	#wrapper {
+		width:96%;
+	}
+	body {
+		/* Font can be aquired from Google Fonts */
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		/* Light grey background */
+		background-color:#f6f6f6 ;
+	}
+}
+
+#header {
+	color:black;
+	text-align:center;
+	padding-top:18px;
+}
+
+#embedded_pdf {
+	padding-bottom: 20px;
+	text-align: center
+}
+
+#centered_text{
+	text-align: center;
+}
+
+
+/* Sets the attributes of the headers */
+h1 {
+	font-size: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+	padding-top:14px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.img3 {
+	width:100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+
+
+
